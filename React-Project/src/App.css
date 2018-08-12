@@ -65,9 +65,10 @@ ul {
   display: inline-block;
   width: 1em;
   content: '>';
+  cursor: pointer;
 }
 .card__title--is-open:before {
-  content: '>';
+  content: '+';
 }
 
 .checklist__task:first-child {
