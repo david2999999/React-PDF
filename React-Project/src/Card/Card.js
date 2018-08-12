@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import CheckList from "../CheckList/CheckList";
 
 class Card extends Component {
     render() {
