@@ -64,7 +64,7 @@ ul {
 .card__title:before {
   display: inline-block;
   width: 1em;
-  content: '>';
+  content: '+';
   cursor: pointer;
 }
 .card__title--is-open:before {
