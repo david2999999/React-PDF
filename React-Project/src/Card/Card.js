@@ -18,11 +18,13 @@ class Card extends Component {
                     <CheckList cardId={this.props.id} tasks={this.props.tasks} />
                 </div>
             );
-        };
+        }
 
         return (
           <div className="card">
-              <div className="card__title">{this.props.title}</div>
+              <div className="card__title" onClick={
+                  () => this.setState({showDetails: !this.state.showDetails})
+              }>{this.props.title}</div>
               {cardDetails}
           </div>
         );
