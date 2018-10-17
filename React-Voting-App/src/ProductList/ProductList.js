@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Product from './Product/Product';
 
 class ProductList extends Component {
     render() {
         return (
             <div className='ui unstackable items'>
-                This is a basic react component
+                <Product />
             </div>
         )
     }
